@@ -17,7 +17,6 @@
   <project path="external/wpa_supplicant_8" name="LineageOS-UL/android_external_wpa_supplicant_8" remote="losul" />
   
   <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="losul" />
-  <project path="frameworks/base" name="LineageOS-UL/android_frameworks_base" remote="losul" />
   <project path="frameworks/ex" name="LineageOS-UL/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="losul" />
   <project path="frameworks/native" name="LineageOS-UL/android_frameworks_native" remote="losul" />
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" remote="losul" />
