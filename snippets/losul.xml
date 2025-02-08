@@ -38,6 +38,6 @@
   <project path="system/sepolicy" name="LineageOS-UL/android_system_sepolicy" remote="losul" />
   <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool" remote="losul" />
    
-  <project path="vendor/lineage" name="LineageOS-UL/android_vendor_lineage" remote="losul" />
+  <project path="vendor/lineage" name="Professor-Berni/android_vendor_lineage" remote="losul" />
  
 </manifest>
