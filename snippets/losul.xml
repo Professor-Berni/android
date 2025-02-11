@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- losul additions -->
-  <project path="build/make" name="LineageOS-UL/android_build" >
+  <project path="build/make" name="Professor-Berni/android_build" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -11,9 +11,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="device/lineage/sepolicy" name="LineageOS-UL/android_device_lineage_sepolicy" />
-  <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" />
-  <project path="frameworks/base" name="LineageOS-UL/android_frameworks_base" />
-  <project path="frameworks/native" name="LineageOS-UL/android_frameworks_native" revision="lineage-22.1-gles" />
+  <project path="frameworks/av" name="Professor-Berni/android_frameworks_av" />
+  <project path="frameworks/base" name="Professor-Berni/android_frameworks_base" />
+  <project path="frameworks/native" name="Professor-Berni/android_frameworks_native" revision="lineage-22.1-gles" />
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" />
   <project path="hardware/qcom-caf/common" name="LineageOS-UL/android_hardware_qcom-caf_common" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -45,9 +45,10 @@
   </project>
   <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" />
   <project path="packages/services/Telephony" name="LineageOS-UL/android_packages_services_Telephony" />
-  <project path="system/core" name="LineageOS-UL/android_system_core" />
+  <project path="system/core" name="Professor-Berni/android_system_core" />
+  <project path="system/netd" name="Professor-Berni/android_system_netd" />
   <project path="system/libhidl" name="LineageOS-UL/android_system_libhidl" />
   <project path="system/libhwbinder" name="LineageOS-UL/android_system_libhwbinder" />
   <project path="system/sepolicy" name="LineageOS-UL/android_system_sepolicy" />
-  <project path="vendor/lineage" name="LineageOS-UL/android_vendor_lineage" />
+  <project path="vendor/lineage" name="Professor-Berni/android_vendor_lineage" />
 </manifest>
