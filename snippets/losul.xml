@@ -45,6 +45,7 @@
   </project>
   <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" />
   <project path="packages/services/Telephony" name="LineageOS-UL/android_packages_services_Telephony" />
+  <project path="system/bpf" name="Professor-Berni/android_system_bpf" />
   <project path="system/core" name="Professor-Berni/android_system_core" />
   <project path="system/netd" name="Professor-Berni/android_system_netd" />
   <project path="system/libhidl" name="LineageOS-UL/android_system_libhidl" />
