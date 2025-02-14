@@ -49,6 +49,6 @@
   <project path="system/netd" name="Professor-Berni/android_system_netd" />
   <project path="system/libhidl" name="LineageOS-UL/android_system_libhidl" />
   <project path="system/libhwbinder" name="LineageOS-UL/android_system_libhwbinder" />
-  <project path="system/sepolicy" name="LineageOS-UL/android_system_sepolicy" />
+  <project path="system/sepolicy" name="Professor-Berni/android_system_sepolicy" />
   <project path="vendor/lineage" name="Professor-Berni/android_vendor_lineage" />
 </manifest>
