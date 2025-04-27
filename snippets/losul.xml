@@ -11,10 +11,15 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="device/lineage/sepolicy" name="LineageOS-UL/android_device_lineage_sepolicy" />
+  <project path="device/qcom/sepolicy-legacy" name="Professor-Berni/android_device_qcom_sepolicy" revision="lineage-22.1-legacy" />
   <project path="frameworks/av" name="Professor-Berni/android_frameworks_av" />
   <project path="frameworks/base" name="Professor-Berni/android_frameworks_base" />
   <project path="frameworks/native" name="Professor-Berni/android_frameworks_native" revision="lineage-22.1-gles" />
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" />
+  <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="Professor-Berni/android_hardware_qcom_audio" revision="lineage-22.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="Professor-Berni/android_hardware_qcom_display" revision="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="Professor-Berni/android_hardware_qcom_media" revision="lineage-21.0-caf-msm8994" />
   <project path="hardware/qcom-caf/common" name="LineageOS-UL/android_hardware_qcom-caf_common" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -22,6 +27,7 @@
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -43,7 +49,6 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
-  <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" />
   <project path="packages/modules/Connectivity" name="Professor-Berni/android_packages_modules_Connectivity" revision="lineage-22.1-nobpf" />
   <project path="packages/services/Telephony" name="LineageOS-UL/android_packages_services_Telephony" />
   <project path="system/bpf" name="Professor-Berni/android_system_bpf" />
