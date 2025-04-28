@@ -18,8 +18,8 @@
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" />
   <project path="hardware/interfaces" name="LineageOS-UL/android_hardware_interfaces" />
   <project path="hardware/qcom-caf/msm8994/audio" name="Professor-Berni/android_hardware_qcom_audio" revision="lineage-22.1-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8994/display" name="Professor-Berni/android_hardware_qcom_display" revision="lineage-21.0-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8994/media" name="Professor-Berni/android_hardware_qcom_media" revision="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="LineageOS-UL/android_hardware_qcom_display" revision="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="LineageOS-UL/android_hardware_qcom_media" revision="lineage-21.0-caf-msm8994" />
   <project path="hardware/qcom-caf/common" name="LineageOS-UL/android_hardware_qcom-caf_common" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
