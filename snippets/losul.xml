@@ -49,6 +49,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
+  <project path="hardware/ril" name="Professor-Berni/android_hardware_ril" />
   <project path="packages/modules/Connectivity" name="Professor-Berni/android_packages_modules_Connectivity" revision="lineage-22.1-nobpf" />
   <project path="packages/services/Telephony" name="LineageOS-UL/android_packages_services_Telephony" />
   <project path="system/bpf" name="Professor-Berni/android_system_bpf" />
