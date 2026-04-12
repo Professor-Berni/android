@@ -13,10 +13,10 @@
   <project path="external/libnfc-nxp" name="LineageOS-UL/android_external_libnfc-nxp" remote="losul" />
   <project path="external/perfetto" name="LineageOS-UL/android_external_perfetto" remote="losul" />
   
-  <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="losul" />
-  <project path="frameworks/base" name="LineageOS-UL/android_frameworks_base" remote="losul" />
-  <project path="frameworks/native" name="LineageOS-UL/android_frameworks_native" remote="losul" />
-  <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" remote="losul" />
+  <project path="frameworks/av" name="Professor-Berni/android_frameworks_av" remote="losul" />
+  <project path="frameworks/base" name="Professor-Berni/android_frameworks_base" remote="losul" />
+  <project path="frameworks/native" name="Professor-Berni/android_frameworks_native" remote="losul" />
+  <project path="frameworks/opt/telephony" name="Professor-Berni/android_frameworks_opt_telephony" remote="losul" />
   
   <project path="hardware/broadcom/nfc" name="LineageOS-UL/android_hardware_broadcom_nfc" remote="losul" />
   <project path="hardware/lineage/interfaces" name="LineageOS-UL/android_hardware_lineage_interfaces" remote="losul" />
